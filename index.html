@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Test E-commerce Page</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      margin: 20px;
+      max-width: 800px;
+      margin: auto;
+    }
+    .product {
+      border: 1px solid #ccc;
+      padding: 20px;
+    }
+    .product-image {
+      display: block;
+      width: 100%;
+      max-width: 400px;
+      margin: 0 auto;
+      cursor: pointer;
+    }
+    .product-description {
+      margin-top: 20px;
+      cursor: pointer;
+    }
+    .actions {
+      margin-top: 20px;
+    }
+    button {
+      padding: 10px 20px;
+      margin-right: 10px;
+      border: none;
+      cursor: pointer;
+      color: #fff;
+    }
+    .minor-conversion {
+      background-color: #f0ad4e;
+    }
+    .major-conversion {
+      background-color: #5cb85c;
+    }
+  </style>
+</head>
+<body>
+
+  <h1>Test E-commerce Page</h1>
+  <div class="product">
+    <!-- Interaction: Product Image -->
+    <img src="https://via.placeholder.com/400" alt="Product Image" class="product-image" id="product-image">
+    
+    <!-- Interaction: Product Description -->
+    <div class="product-description" id="product-description">
+      <h2>Sample Product</h2>
+      <p>This product is designed for testing tracking events. Click here to trigger an interaction event.</p>
+    </div>
+    
+    <div class="actions">
+      <!-- Minor Conversion: Add to Cart -->
+      <button class="minor-conversion" id="add-to-cart">Add to Cart</button>
+      <!-- Major Conversion: Buy Now -->
+      <button class="major-conversion" id="buy-now">Buy Now</button>
+    </div>
+  </div>
+
+</body>
+</html>
